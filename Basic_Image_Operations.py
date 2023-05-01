@@ -2,7 +2,7 @@ import cv2
 
 import numpy as np
 
-img = cv2.imread("flower.webp")
+img = cv2.imread("dataset/flower.webp")
 
 cv2.imshow("image", img)
 cv2.waitKey(0)
